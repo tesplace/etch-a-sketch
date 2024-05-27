@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    border: solid 1px black;
+    display: flex;
+    width: 600px;
+    height: 600px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.row {
+    /* border: solid 1px black; */
+    width: auto;
+    flex-grow: 1;
+    display: flex;
+}
+
+.square {
+    border: solid 1px black;;
+    width: auto;
+    flex-grow: 1;
+    margin: 0.5px;    
+
+}
+
+.square:hover {
+    background-color: black;
+}
+
+.inputContainer {
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 600px;
+    padding: 10px;
+}
+
+.black {
+    background-color: black;
+}
