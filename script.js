@@ -19,7 +19,7 @@ btnGo.addEventListener("click", () => {
                 square.className = "square";
 
                 square.addEventListener("mouseover", () => {
-                    square.classList.add("black");
+                    square.classList.add("blackBackground");
                 });
     
                 row.appendChild(square);

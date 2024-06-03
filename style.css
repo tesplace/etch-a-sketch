@@ -1,9 +1,10 @@
+/* main parts of the page */
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: beige;
-    
+    background-color: beige;   
 }
 
 h1 {
@@ -30,6 +31,16 @@ header {
 }
 
 
+footer {
+    font-family: Cairo Play;
+    font-weight: light;
+    color: rgb(94, 94, 94);
+    margin-top: 15px;
+}
+
+/* containers */
+
+
 .container {
     border: solid 5px #FF3DAF;
     display: flex;
@@ -39,6 +50,21 @@ header {
     padding: 10px;
     border-radius: 15px;
 }
+
+.inputContainer {
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid #FF7A5E;
+    width: 600px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #FFFFB2;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+/* sketchboard */
 
 .row {
     width: auto;
@@ -54,22 +80,13 @@ header {
     border-radius: 5px;
 }
 
-.black {
+.blackBackground {
     background-color: black;
 }
 
-.inputContainer {
-    font-size: large;
-    display: flex;
-    justify-content: space-between;
-    border: 5px solid #FF7A5E;
-    width: 600px;
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #FFFFB2;
-    margin-bottom: 20px;
-    border-radius: 15px;
-}
+
+/* interactable elements */
+
 
 .inputInteract {
     display: flex;
