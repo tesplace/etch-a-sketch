@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: beige;
     
 }
 
@@ -19,36 +20,38 @@ h1 {
 
 header {
     margin-top: 0px;
-    border: 1px solid black;
     width: 620px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: pink;
+    padding-bottom: 10px;
+    border-radius: 15px;
 }
 
 
 .container {
-    border: solid 1px black;
+    border: solid 5px #FF3DAF;
     display: flex;
     width: 600px;
     height: 600px;
     flex-direction: column;
     padding: 10px;
+    border-radius: 15px;
 }
 
 .row {
-    /* border: solid 1px black; */
     width: auto;
     flex-grow: 1;
     display: flex;
 }
 
 .square {
-    border: solid 1px black;;
     width: auto;
     flex-grow: 1;
     margin: 0.5px;    
-
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
 
 .black {
@@ -59,10 +62,13 @@ header {
     font-size: large;
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    border: 5px solid #FF7A5E;
     width: 600px;
     padding: 10px;
     margin-top: 20px;
+    background-color: #FFFFB2;
+    margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 .inputInteract {
@@ -72,9 +78,25 @@ header {
 
 label {
     font-family: Cairo Play;
-
 }
 
 .black {
     background-color: black;
+}
+
+#input {
+    font-family: Cairo Play;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+.reset,
+.btnGo {
+    font-family: Cairo Play;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #FFEC6C;
+    border-radius: 5px;
 }
