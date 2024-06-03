@@ -3,8 +3,8 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: beige;   
+    align-items: center;
 }
 
 h1 {
@@ -116,4 +116,15 @@ label {
     font-size: 15px;
     background-color: #FFEC6C;
     border-radius: 5px;
+}
+.reset:hover,
+.btnGo:hover {
+    font-family: Cairo Play;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #ff44a4;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    color: white;
 }
