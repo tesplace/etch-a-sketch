@@ -29,6 +29,7 @@ btnGo.addEventListener("click", () => {
         }
 
         btnGo.disabled = true;
+        
     } else if (sketchBoardSize >100) {
         alert("Please enter a number that is smaller than 100!")
     } else {
